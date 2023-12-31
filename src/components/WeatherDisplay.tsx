@@ -1,5 +1,5 @@
 import WeatherInfoTile from "@/components/WeatherInfoTile";
-import { WeatherData } from "@/data/WeatherData";
+import { type WeatherData } from "@/data/useWeather.types";
 import React from "react";
 
 const WeatherDisplay = ({ data }: { data: WeatherData | undefined }) => {
@@ -18,7 +18,7 @@ const WeatherDisplay = ({ data }: { data: WeatherData | undefined }) => {
         <WeatherInfoTile
           title="Condition"
           value={weather[0].description}
-          className="capitalize col-span-1 sm:col-span-2"
+          className="capitalize"
         />
         <WeatherInfoTile title="Temperature" value={`${temp.toString()}°C`} />
         <WeatherInfoTile

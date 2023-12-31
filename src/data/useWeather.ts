@@ -1,5 +1,5 @@
 import useSWRImmutable from "swr/immutable";
-import { WeatherData } from "./useWeather.types.ts";
+import { WeatherData, useWeatherProps } from "./useWeather.types";
 
 const apiKey = process.env.NEXT_PUBLIC_OPENWEATHERMAP_API_KEY || "";
 
