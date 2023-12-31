@@ -1,6 +1,7 @@
 # This is a [Next.js](https://nextjs.org/) project written for [TNET](https://tnet.ge) interviewing process
 
 Small info about stack:
+
 - Next.js (with TypeScript)
 - [swr](https://swr.vercel.app/)
 - [clsx](https://github.com/lukeed/clsx#readme)
