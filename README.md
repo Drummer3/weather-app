@@ -8,6 +8,8 @@ Small info about stack:
 - [ESLint](https://eslint.org/)
 - [prettier](https://prettier.io/)
 
+Fetched weather data from [OpenWeather](https://openweathermap.org/)
+
 ## Getting Started
 
 First, run the development server:
